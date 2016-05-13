@@ -1,0 +1,98 @@
+/*
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+
+*/
+
+
+
+
+#all           { width:900px; margin:auto auto; background-color:white;
+                 padding:0px 60px;}
+p 			{font-weight:bold;}
+body          {background-image:url(../img/bg/6.jpg);
+
+                background-repeat:repeat;
+                font-family:arial;}
+                
+h2,h3        {
+	font-family:"Courier New", Courier, monospace, cursive;
+}
+h1				{ color:#FFF}
+               
+#rightside a				{ font-size:20px;}
+#butn1			{ margin:0 0 0 220px; }  
+    
+#form			{ margin:0 0 0 10px;}       
+
+#logo          {float:right; margin:30px  0 10px 5px;}
+#logo2          {float:left; margin:20px 0 5px 0px;}
+#topic        { float:none; margin:0px 0px 0px 40px; text-align:center;}
+#login 			{margin:0px 0px 0px 90px;}
+
+#topnav        {clear:both; }
+
+#topnav ul     {padding:5px 0; margin:0; border-top:1px #000 solid; border-bottom:1px #000 solid;}
+#topnav ul li  { display:inline;list-style-type:none;
+                 margin:0 40px 0 0;}
+#topnav a:link            {  font-weight:bold; text-decoration:none;text-transform:uppercase;color:#000;font-size:15px;}                 
+#topnav a:visited         {  font-weight:bold; text-decoration:none;text-transform:uppercase;color:#000;font-size:15px;} 
+#topnav a:active          {  font-weight:bold; text-decoration:none;text-transform:uppercase;color:#000;font-size:15px;}
+#topnav a:hover           {  font-weight:bold; text-decoration:none;text-transform:uppercase;color:#DFBE00;}
+#topnav a:focus           {  font-weight:bold; text-decoration:none;text-transform:uppercase;color:#DFBE00;}
+
+                
+#content         { float:left; width:580px; } 
+#content p       {font-size:12px;line-height:200%; }
+#content h2      { color:#DFBE00; }
+#rightside h2    {color:#DFBE00; }
+#rightside p     {font-size:10px; line-height:180%; }
+#rightside li    {font-size:10px; line-height:180%; }
+#box1            { width:265px; float:left;}
+#box2            { width:265px;float:left;}
+.img-right       { float:right; padding:0 0 40px 0;}
+
+#rightside       { float:right; width:270px;}  
+#footer          {clear:both; padding:10px 0;
+                   border-top:1px #000 solid; }
+#footer p       {text-align:center; font-size:14px; font-weight:bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+
+                 

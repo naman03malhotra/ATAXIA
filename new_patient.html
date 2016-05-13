@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>ATAXIA</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+
+   
+
+</head>
+   <body>
+   		<div id="all">
+<div id="top">
+			 <div id="logo">
+			 	 <img src="img/others/Institute-of-Genomics-Integrative-Biology (1).bmp" width="250" height="165">
+			 </div>
+           <div id="logo2">
+			 	 <img src="img/others/180px-BhaskaracharyaCollegeOfAppliedSciencesLogo.png" width="185" height="175" alt="" border="">
+		   </div>
+           <div id="social2">
+            <h1>
+            
+          <p align="center">&nbsp;</p></h1>
+           </div>
+		   <div id="topic">
+			   <font color="#000066" size="+2" face="Courier New, Courier, monospace" >
+               <strong>
+				 Genetic Curation </br>of Ataxia Phenomes for</br>
+                 Establishment of Predictive</br> and Rapid
+                 Diagnostic Paradigm
+                 </strong>
+                 </font>
+			 </div>
+		</div>
+		<div id="topnav">
+			 <ul>
+			 	 <li><a href="index.html">Home</a></li>
+				 <li><a href="login_seprate.html">Log In</a></li>
+				 
+				 <li><a href="#">HELP</a></li>
+                 <li><a href="#">FAQ</a></li>
+				 <li><a href="contactus.php">SUGGESTIONS</a></li>
+				 <li><a href="#">About Us</a></li>
+			</ul>
+		</div>
+		
+
+		<div id="allcontent">
+        	<font size="7" color="" face="Times New Roman, Times, serif">
+    				Enter Patients's Details</font>
+                    <hr size=3 color="black" align="left"  width="49%"> </br>
+     
+			 <div id="content">
+             	<center>
+                <tr><td>*Fields are mandatory.</td></tr>
+                <div id="form">
+			 	 <form action="disease.php" method="post">
+                 
+                    <table>
+                    
+               
+                 <tr><th>First name:*</th><td> <input type="text" name="ename" size="20" required maxlength="25"></td></tr>
+                    <tr><th>Last name: </th><td><input type="text" name="elast" size="20" maxlength="25"> </td></tr>
+                    <tr><th> Middle name:</th><td> <input type="text"  name="emd" size="20" maxlength="25">   </td></tr>
+                    <tr><th> Gender:*</th><td> <input type="radio" name="egender" value="Male" required> Male<br>
+                    <input type="radio" name="egender" value="female">Female</td></tr>
+                    <tr><th>Mobile no:*</th> <td> <input type="tel"  name="emob" size="20" required pattern="[0-9]{10}" maxlength="10">   </td></tr>
+                    <tr><th>Email:</th> <td> <input type="email"  name="email" size="20" maxlength="50">    </td>
+                    <tr> <th>DOB:*</th> <td><input type="date"  name="edob" size="20" required>  </td></tr>
+                    <tr><th>Father/Husband Name:</th><td><input type="text" name="eh_fname" size="20" maxlength="30"></td></tr>
+                    <tr><th>Mother name:</th><td><input type="text"  name="e_m" size="20" maxlength="30"></td></tr>
+                    <tr><th>House number:</th><td><input type="text" name="e_hn" size="4" maxlength="15"></td></tr>
+                    <tr><th>House street:</th><td><input type="text" name="e_st" size="20" maxlength="20"></td></tr>
+                    <tr><th>House locality:</th><td><input type="text" name="e_loc" size="20" maxlength="20" ></td></tr>
+                    <tr><th> State:</th><td><select size="1" name="esta" value="none">
+                    <option>None</option>
+                    <option>Andaman and Nicobar Islands</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chandigarh</option>
+                    <option>Chhattisgarh</option>
+                    <option>Dadra and Nagar Haveli</option>
+                    <option>Daman and Diu </option>
+                    <option>Delhi </option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Jammu and Kashmir</option>
+                    <option>Jharkhand</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                    <option>Lakshadweep</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra</option>
+                    <option>Manipur</option>
+                    <option>Meghalaya</option>
+                    <option>Mizoram</option>
+                    <option>Nagaland</option>
+                    <option>Odisha</option>
+                    <option>Puducherry </option>
+                    <option>Punjab</option>
+                    <option>Rajasthan</option>
+                    <option>Sikkim</option>
+                    <option>Tamil Nadu</option>
+                    <option>Tripura</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Uttarakhand</option>
+                    <option>West Bengal</option>
+                    </select></td></tr> <BR>
+             
+                    <tr><th> Blood Group:</th><td><select size="1" name="ebg" value="select">
+                    <option>Select</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>AB</option>
+                    <tr><th>Any thing else:</th><td><input size="50" name="erem" maxlength="1000"></td></tr>
+                    </table>
+                    </center>
+                    
+                    <br>
+                    
+                    <div id="butn1">
+                    <input type="submit"  value="Submit">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Reset!"> 
+                    </div>
+                    
+                    <div id="reset">
+                    
+                    </div>
+                    
+                    </form>
+                    </div>
+				  
+			 </div>
+			 <div id="rightside">
+				   <h2>Important Links:</h2>
+				  <ul>
+				  	  <li><a  target="_blank" href="http://www.hgmd.cf.ac.uk/ac/index.php">HGMD</a></li>
+					  <li><a  target="_blank" href="http://www.omim.org">OMIM</a></li>
+					  <li><a target="_blank" href="http://www.ncbi.nlm.nih.gov">NCBI</a></li>
+					  <li><a target="_blank" href="http://www.pdb.org/pdb/home/home.do">PDB</a></li>
+					  
+				  </ul>
+				  
+                   <h2>Latest News:</h2>
+                  <ul>
+				  	  <li>News link 1</li>
+                      <li>News link 2</li>
+                      <li>News link 3</li>
+                      <li>News link 4</li>
+                      <li>News link 5</li>
+					  
+				  </ul>
+			 	 
+			 </div>
+		
+		<div id="footer">
+			 <p>&copy;Bhaskaracharya College of Applied Sciences, University of Delhi; CSIR-Institute of Genomics and Intergrative Biology.</p>
+		
+		</div>
+		</div>
+		</div>
+   </body>
+</html>
